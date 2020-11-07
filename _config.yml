@@ -5,6 +5,7 @@ baseurl: "/mustang-sally"
 url: "https://www.csrhymes.com"
 twitter_username: chrisrhymes
 github_username:  chrisrhymes
+permalink: pretty
 
 google_analytics: UA-49024852-2
 
