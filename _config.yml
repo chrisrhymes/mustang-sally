@@ -22,7 +22,7 @@ collections:
 defaults:
   -
     values:
-      image: /mustang-sally/images/hero.jpg
+      image: /images/hero.jpg
       hero_image: /mustang-sally/images/hero.jpg
 
 # SEO
