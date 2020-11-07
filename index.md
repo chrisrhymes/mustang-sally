@@ -5,7 +5,7 @@ subtitle: Mustang LT Amp Tones
 description: Mustang LT Amp Tone recipes
 ---
 
-Welcome to Mustang Sally, a community site for Mustang LT Amp owners to share their own tones with other members. 
+Welcome to Mustang Sally, a community site for Mustang LT Amp owners to share their own tones with other Mustang LT owners. This site is not affiliated with Fender in any way.
 
 If you want to share you own tones, please take a look at the [Contribute](/contribute/) page for instructions.
 
