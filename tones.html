@@ -1,0 +1,14 @@
+---
+layout: page
+title: Tones
+description: A list of community provided Mustang LT amp tone presets.
+---
+
+<div class="columns is-multiline">
+  {% assign tones = site.tones | sort: "name" %}
+  {% for item in tones %}
+      <div class="column is-4">
+          {% include box.html %}
+      </div>
+  {% endfor %}
+</div>

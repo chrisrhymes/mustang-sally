@@ -1,0 +1,47 @@
+title: Mustang Sally
+description: >- # this means to ignore newlines until "baseurl:"
+    A community site for Mustang LT owners to share their tone presets with each other
+baseurl: "/mustang-sally"
+url: "https://www.csrhymes.com"
+twitter_username: chrisrhymes
+github_username:  chrisrhymes
+
+google_analytics: UA-49024852-2
+
+# Build settings
+#theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
+livereload: true
+plugins:
+  - jekyll-feed
+
+collections:
+  tones:
+    output: true
+
+defaults:
+  -
+    values:
+      image: /mustang-sally/images/hero.jpg
+      hero_image: /mustang-sally/images/hero.jpg
+
+# SEO
+author: 
+  twitter: chrisrhymes
+lang: en_GB
+logo: /img/avatar.png
+twitter:
+  username: chrisrhymes
+  card: summary_large_image
+facebook:
+  publisher: https://www.facebook.com/CS-Rhymes-1423568567916115
+social:
+  name: C.S. Rhymes
+  links:
+    - https://www.twitter.com/chrisrhymes
+    - https://www.facebook.com/CS-Rhymes-1423568567916115
+    - https://github.com/chrisrhymes
+
+feed:
+  collections:
+    - tones

@@ -1,0 +1,16 @@
+{% if include.pedal %}
+    <p class="subtitle is-3 has-text-centered">{{ include.pedal.name }}</p>
+    <p class="has-text-centered">Settings</p>
+    <table class="table is-fullwidth is-striped is-hoverable is-bordered">
+        <tbody>
+            {% for item in include.pedal.settings  %}
+            <tr>
+                <th>{{ item[0] }}</th>
+                <td>{{ item[1] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p class="has-text-centered">Empty</p>
+{% endif %}
