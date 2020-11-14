@@ -23,6 +23,7 @@ Alternatively, please copy the below example into a text editor, such as notepad
 
 * Set the title to the name of your preset and the author as your name. 
 * Add the date in YYYY-MM-DD format
+* To include a demo video from YouTube or Instagram add the id to youtube or instagram. Please only include one. 
 * There are 4 pedals and an amp, the amp is required, but pedals are not. The pedals are:
     * stompbox
     * mod
@@ -39,6 +40,8 @@ layout: tone
 title: Tone Name
 author: Author Name
 date: 2020-11-02
+youtube: video_id
+instagram: post_id
 stompbox:
     name: Stompbox Pedal name
     settings:

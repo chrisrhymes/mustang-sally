@@ -15,6 +15,7 @@ remote_theme: chrisrhymes/bulma-clean-theme
 livereload: true
 plugins:
   - jekyll-feed
+  - github-pages
 
 collections:
   tones:

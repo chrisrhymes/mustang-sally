@@ -3,6 +3,7 @@ layout: tone
 title: Smooth Acoustic
 author: Chris Rhymes
 date: 2020-11-07
+instagram: CHQv-BmJtgG
 amp: 
     name: Champ
     settings:
@@ -20,3 +21,5 @@ reverb:
 ---
 
 This is a preset that I have made that I use with my acoustic guitar. It's pretty basic and not as clear as a proper acoustic amp but worth trying out to see what you think.
+
+I used this preset whilst playing slide guitar on my acoustic plugged into my Mustang LT25 amp in the instagram video.
