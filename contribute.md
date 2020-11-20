@@ -2,7 +2,7 @@
 layout: page
 title: Contribute
 subtitle: Submit your own settings
-description: Find out how to contribute your own tone to this site
+description: Find out how to contribute your own Mustang LT tone preset to this site
 ---
 
 This site is open to contributions from the community. Please take a read through the instructions to find out how to contribute. 
