@@ -2,34 +2,42 @@
 layout: default
 ---
 
-
-
 <div class="columns is-multiline">
     <div class="column is-4">
         <div class="columns is-multiline">
             <div class="column is-12">
-                <p class="title is-6 has-text-centered">STOMPBOX</p>
-                {% include pedal.html pedal=page.stompbox %}
+                <div class="box">
+                    <p class="title is-6 has-text-centered">STOMPBOX</p>
+                    {% include pedal.html pedal=page.stompbox %}
+                </div>
             </div>
             <div class="column is-12">
-                <p class="title is-6 has-text-centered">MOD</p>
-                {% include pedal.html pedal=page.mod %}
+                <div class="box">
+                    <p class="title is-6 has-text-centered">MOD</p>
+                    {% include pedal.html pedal=page.mod %}
+                </div>
             </div>
         </div>
     </div>
     <div class="column is-4">
-        <p class="title is-6 has-text-centered">AMP</p>
-        {% include pedal.html pedal=page.amp %}
+        <div class="box">
+            <p class="title is-6 has-text-centered">AMP</p>
+            {% include pedal.html pedal=page.amp %}
+        </div>
     </div>
     <div class="column is-4">
         <div class="columns is-multiline">
             <div class="column is-12">
-                <p class="title is-6 has-text-centered">DELAY</p>
-                {% include pedal.html pedal=page.delay %}
+                <div class="box">
+                    <p class="title is-6 has-text-centered">DELAY</p>
+                    {% include pedal.html pedal=page.delay %}
+                </div>
             </div>
             <div class="column is-12">
-                <p class="title is-6 has-text-centered">REVERB</p>
-                {% include pedal.html pedal=page.reverb %}
+                <div class="box">
+                    <p class="title is-6 has-text-centered">REVERB</p>
+                    {% include pedal.html pedal=page.reverb %}
+                </div>
             </div>
         </div>
     </div>
