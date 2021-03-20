@@ -5,7 +5,7 @@ description: A list of community provided Fender Mustang LT amp tone presets for
 ---
 
 <div class="columns is-multiline">
-  {% assign tones = site.tones | sort: "name" %}
+  {% assign tones = site.tones | sort: "title" %}
   {% for item in tones %}
       <div class="column is-4">
           {% include box.html %}
